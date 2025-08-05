@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 50px 20px;
+  font-family: Georgia, serif;
+  background-color: #e8f0fe; /* Light blue background */
+  display: flex;
+  justify-content: center;
+}
+
+.todo-container {
+  background-color: #ffffff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: #1e3a8a; /* Navy blue */
+  margin-bottom: 25px;
+  font-size: 28px;
+}
+
+/* Input Section */
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px 12px;
+  border: 2px solid #1e40af;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 5px rgba(37, 99, 235, 0.4);
+}
+
+button {
+  padding: 10px 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1d4ed8; /* Blue */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #1e40af; /* Darker blue */
+}
+
+/* Task List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background-color: #f0f4ff;
+  margin-bottom: 10px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+li.done {
+  text-decoration: line-through;
+  color: #6b7280;
+  background-color: #dbeafe; /* Light blue for done task */
+}
+
+/* Buttons for each task */
+.task-buttons button {
+  margin-left: 5px;
+  padding: 6px 8px;
+  font-size: 14px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.task-buttons .done-btn {
+  background-color: #22c55e; /* Green */
+}
+
+.task-buttons .done-btn:hover {
+  background-color: #16a34a;
+}
+
+.task-buttons .delete-btn {
+  background-color: #ef4444; /* Red */
+}
+
+.task-buttons .delete-btn:hover {
+  background-color: #b91c1c;
+}
+
+/* Clear Button */
+#clearDoneBtn {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #3b82f6; /* Blue */
+  padding: 10px;
+}
+
+#clearDoneBtn:hover {
+  background-color: #1e40af;
+}
+
+/* Font Awesome Icon styling (optional tweaks) */
+i {
+  pointer-events: none;
+}

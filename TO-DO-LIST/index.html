@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css"/>
+  <!-- Font Awesome CDN for icons -->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  integrity="sha512-pVnw3jYbqRXpsNfZfXPHozCj3+R4b1+mH1P8h9ApJ6RzP8mSnE8ZzT8lO0VKP4KZ6PjW3C6CJZ1b8uYF5TlfYQ=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+  <div class="todo-container">
+    <h1 class="blue-heading"><i class="fa-solid fa-list-check"></i> To-Do List</h1>
+    
+    <div class="input-group">
+      <input type="text" id="taskInput" placeholder="Enter a task..." />
+      <button onclick="addTask()">Add</button>
+    </div>
+
+    <ul id="taskList"></ul>
+
+    <button id="clearDoneBtn" onclick="clearCompleted()">
+      <i class="fa-solid fa-broom"></i> Clear Completed
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
