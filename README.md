@@ -35,6 +35,8 @@ The server responded with a simple “Hello World” message when accessed throu
 
 This project made me more comfortable with backend concepts and gave me a foundation to later work with frameworks like Express.js.
 
+<img width="1918" height="1023" alt="Image" src="https://github.com/user-attachments/assets/86ee201c-f170-4f72-9ebf-7643f94a20fe" />
+
 # ⚡ Express.js Application
 
 After getting familiar with Node.js, I transitioned to Express.js, which simplifies the process of building servers and APIs. In this project, I created routes to handle both GET and POST requests.
