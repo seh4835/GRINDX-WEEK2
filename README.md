@@ -23,6 +23,10 @@ Through this project, I learned how JavaScript can manipulate the DOM to create 
 
 This project gave me confidence in working with HTML for structure, CSS for design, and JavaScript for functionality, and it clearly demonstrated the role of JavaScript in enhancing static web pages.
 
+<img width="1915" height="611" alt="Image" src="https://github.com/user-attachments/assets/2187487e-3fbe-433c-bf26-940d68c336fc" />
+
+<img width="1918" height="781" alt="Image" src="https://github.com/user-attachments/assets/6e734675-3a1e-4382-9faf-9aca21842cd0" />
+
 # 🌐 Node.js Server
 
 Moving to the backend, I created my first server using Node.js. This was a turning point because it introduced me to the idea that JavaScript is not limited to the browser but can also power servers.
