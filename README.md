@@ -31,11 +31,9 @@ This project gave me confidence in working with HTML for structure, CSS for desi
 
 Moving to the backend, I created my first server using Node.js. This was a turning point because it introduced me to the idea that JavaScript is not limited to the browser but can also power servers.
 
-The server responded with a simple “Hello World” message when accessed through the browser. Although basic, this project was very important as it helped me understand the request–response cycle: the client sends a request to the server, and the server processes it before sending back a response.
+The server responded with a simple messages when accessed through the browser. Although basic, this project was very important as it helped me understand the request–response cycle: the client sends a request to the server, and the server processes it before sending back a response.
 
 This project made me more comfortable with backend concepts and gave me a foundation to later work with frameworks like Express.js.
-
-<img width="1918" height="1023" alt="Image" src="https://github.com/user-attachments/assets/86ee201c-f170-4f72-9ebf-7643f94a20fe" />
 
 # ⚡ Express.js Application
 
