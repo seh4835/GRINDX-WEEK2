@@ -45,11 +45,19 @@ This was my first real introduction to RESTful APIs, where different routes coul
 
 This project deepened my understanding of server-side logic, routes, and handling data, and it felt like a major step toward becoming a full stack developer.
 
+<img width="1918" height="1023" alt="Image" src="https://github.com/user-attachments/assets/86ee201c-f170-4f72-9ebf-7643f94a20fe" />
+
+<img width="843" height="263" alt="Image" src="https://github.com/user-attachments/assets/c772c7e9-d9dc-4089-8c57-ebcb2d58f0e8" />
+
 # 📊 Mock JSON API
 
 The final project of this week involved creating a Mock JSON API. This simulated how real-world APIs provide structured data to clients. By defining sample JSON objects (such as tasks or users) and serving them through Express, I built an endpoint that could be accessed to return data in JSON format.
 
 This project connected everything I had learned so far. It helped me see how the frontend could consume data from the backend, and how APIs form the bridge between the two. It also reinforced the importance of JSON as a universal format for data exchange in modern applications.
+
+<img width="1918" height="1022" alt="Image" src="https://github.com/user-attachments/assets/58d550fc-b471-4c09-822e-49108940d437" />
+
+<img width="967" height="502" alt="Image" src="https://github.com/user-attachments/assets/f207d96f-9878-4103-b3ab-68440b437569" />
 
 # ⚙️ Technologies & Tools
 
